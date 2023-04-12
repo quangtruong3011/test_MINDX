@@ -28,7 +28,7 @@ function showPrimes() {
 function numberOneTriangle() {
     let n = parseInt(document.getElementById("n").value);
     let triangle = '';
-    for (let i = 1; i <= n/2; i++) {
+    for (let i = 1; i <= n; i++) {
         for (let j = 1; j <= i; j++) {
             triangle += '* ';
         }
